@@ -1,0 +1,106 @@
+:root {
+  --primary-color: #8d0000;
+  --secondary-color: #6a6363;
+}
+
+h1,
+h2 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 900;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+/*Loginpage*/
+.container {
+  margin: 0px;
+  padding: 0px;
+}
+.logo {
+  background-color: var(--secondary-color);
+}
+.content-intro {
+  margin-top: 120px;
+  margin-left: 120px;
+  text-align: left;
+  display: center;
+}
+.content-login {
+  display: block;
+  margin-top: 50px;
+  margin-left: 120px;
+  padding: 0px;
+}
+.form-control {
+  border-color: var(--primary-color);
+}
+.btn {
+  background-color: var(--primary-color);
+  padding: 7px 130px;
+  margin-top: 20px;
+  border-color: var(--primary-color);
+}
+.btn:hover {
+  background-color: #bf3131;
+  border-color: #bf3131;
+}
+
+/*Studentpage*/
+body {
+  background-color: #fff8ef;
+}
+.student-container {
+  margin: 100px;
+}
+.student-welcome {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+}
+.point-total {
+  border: solid 2px gray;
+  border-radius: 20px;
+  padding: 40px;
+  background-color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+}
+.transactions {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+.card {
+  margin-top: 50px;
+  border: solid 2px gray;
+}
+
+/*Teacherpage*/
+.teacher-container {
+  margin: 100px;
+}
+.teacher-welcome {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+}
+.students-title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+  margin-top: 60px;
+}
+
+.accordion-button {
+  background-color: #dfdcef;
+  color: black;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+}
+.accordion-button:hover {
+  background-color: #cdc5f9;
+  color: black;
+}
